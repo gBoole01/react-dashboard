@@ -1,9 +1,14 @@
-const FAQ = () => {
+import { Box } from "@mui/material";
+import Header from "../../components/Header";
+
+const Faq = () => {
   return (
-    <div>
-      <h1>FAQ</h1>
-    </div>
+    <Box m="20px">
+      <Box display="flex" justifyContent="space-between" alignItems="center">
+        <Header title="Dashboard" subtitle="Welcome to your dashboard" />
+      </Box>
+    </Box>
   );
 };
 
-export default FAQ;
+export default Faq;
