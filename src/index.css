@@ -11,12 +11,12 @@ body,
 .content {
   height: 100%;
   width: 100%;
+  font-family: "Source Sans Pro", sans-serif;
 }
 
-#root {
+.app {
   display: flex;
   position: relative;
-  font-family: "Source Sans Pro", sans-serif;
 }
 
 ::-webkit-scrollbar {
