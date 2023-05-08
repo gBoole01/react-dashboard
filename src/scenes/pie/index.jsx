@@ -2,7 +2,7 @@ import { Box } from "@mui/material";
 import Header from "../../components/Header";
 import PieChart from "../../components/PieChart";
 
-const Bar = () => {
+const Pie = () => {
   return (
     <Box m="20px">
       <Box display="flex" justifyContent="space-between" alignItems="center">
@@ -15,4 +15,4 @@ const Bar = () => {
   );
 };
 
-export default Bar;
+export default Pie;
